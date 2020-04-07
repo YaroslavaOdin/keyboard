@@ -563,8 +563,6 @@ function handle(event) {
 
 
 function printAndColorBtn(let11, let12, let22, let21, letIndex, event1) {
-	console.log('event1', event1);
-	console.log('letIndex', letIndex);
 	var buttonActive = document.getElementById(letIndex);
 	buttonActive.classList.add('keyboard-key-pressed');
 	if(event1.type == 'keypress') {
@@ -655,11 +653,20 @@ function clickBtn(event) {
 	var arr51 = [''];
 	var arr52 = [''];
 	var arr53 = ['↑', '↑', '↑', '↑'];
+	var arr54 = [''];
+	var arr55 = [''];
+	var arr56 = [''];
+	var arr57 = [''];
+	var arr58 = [''];
+	var arr59 = [''];
+	var arr60 = ['←', '←','←','←'];
+	var arr61 = ['↓', '↓', '↓','↓'];
+	var arr62 = ['→', '→', '→', '→'];
 
 	var arrMain = [arr0, arr1, arr2, arr3, arr4, arr5, arr6, arr7, arr8, arr9, arr10, arr11, arr12, arr13, arr14, arr15, arr16,
 		arr17, arr18, arr19, arr20, arr21, arr22, arr23, arr24, arr25, arr26, arr27, arr28, arr29, arr30, arr31, arr32, arr33,
 		arr34, arr35, arr36, arr37, arr38, arr39, arr40, arr41, arr42, arr43, arr44, arr45, arr46, arr47, arr48, arr49, arr50,
-		arr51, arr52, arr53
+		arr51, arr52, arr53, arr54, arr55, arr56, arr57, arr58, arr59, arr60, arr61, arr62
 	];
 	var indexArr = 0;
 	if(this.id) {
